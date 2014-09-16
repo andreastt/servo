@@ -8,7 +8,7 @@ dependencies = [
  "msg 0.0.1",
  "net 0.0.1",
  "script 0.0.1",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
  "util 0.0.1",
 ]
 
@@ -32,11 +32,11 @@ dependencies = [
  "egl 0.1.0 (git+https://github.com/servo/rust-egl#48b85e30d557ab2ee536730a73dd86a8160d618b)",
  "freetype 0.1.0 (git+https://github.com/servo/rust-freetype#fb15dd309750c8ec664b2c9f245cfcb06731872e)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom#2982b770db6e5e3270305e0fd6b8068f6f80a489)",
- "glfw 0.0.1 (git+https://github.com/servo/glfw-rs?ref=servo#dd1a111c827994886d2cdebf91a1838603256390)",
+ "glfw 0.0.1 (git+https://github.com/servo/glfw-rs?ref=servo#a646f0badaccaebd61d0f8aaec5646da0a7c2a14)",
  "layers 0.1.0 (git+https://github.com/servo/rust-layers#e29c5cd670a0b42e8ac50e7099c265c481640dd5)",
  "opengles 0.1.0 (git+https://github.com/servo/rust-opengles#13cccda11011716fd75526a74dfd03122110f95a)",
  "skia-sys 0.0.20130412 (git+https://github.com/servo/skia#6d696712962fd0d41120b7a414a48417da8e6a92)",
- "xlib 0.1.0 (git+https://github.com/servo/rust-xlib#79904fb42ff8a0e888f70fae336fbf6c11f1e6c8)",
+ "xlib 0.1.0 (git+https://github.com/servo/rust-xlib#581d4faddec5188d3c3ae5307dbea28aab90644c)",
 ]
 
 [[package]]
@@ -62,7 +62,7 @@ dependencies = [
  "core_text 0.1.0 (git+https://github.com/servo/rust-core-text#e2280222889c030df27ded9a378c14a0e31ab463)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom#2982b770db6e5e3270305e0fd6b8068f6f80a489)",
  "gfx 0.0.1",
- "glfw 0.0.1 (git+https://github.com/servo/glfw-rs?ref=servo#dd1a111c827994886d2cdebf91a1838603256390)",
+ "glfw 0.0.1 (git+https://github.com/servo/glfw-rs?ref=servo#a646f0badaccaebd61d0f8aaec5646da0a7c2a14)",
  "glut 0.0.1 (git+https://github.com/servo/rust-glut#d351eed425464c58671c6ec33445ee896fd42ff1)",
  "layers 0.1.0 (git+https://github.com/servo/rust-layers#e29c5cd670a0b42e8ac50e7099c265c481640dd5)",
  "layout_traits 0.0.1",
@@ -71,7 +71,7 @@ dependencies = [
  "opengles 0.1.0 (git+https://github.com/servo/rust-opengles#13cccda11011716fd75526a74dfd03122110f95a)",
  "png 0.1.0 (git+https://github.com/servo/rust-png#f3640b37e71a02ee3e140e181cc9accb0a123e16)",
  "script_traits 0.0.1",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
  "util 0.0.1",
 ]
 
@@ -100,9 +100,9 @@ dependencies = [
 [[package]]
 name = "cssparser"
 version = "0.1.0"
-source = "git+https://github.com/servo/rust-cssparser#42346400a6629b17a48d06f0a9b28ae498947c6f"
+source = "git+https://github.com/servo/rust-cssparser#fa619d4ffd6920dee6e7ea79f42d9cceb9015407"
 dependencies = [
- "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#12b6610adff6eddc060691888c36017cd3ad57f7)",
+ "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#35f0d70f65f73ba16f296f9ec675eddee661ba79)",
 ]
 
 [[package]]
@@ -113,7 +113,7 @@ source = "git+https://github.com/servo/rust-egl#48b85e30d557ab2ee536730a73dd86a8
 [[package]]
 name = "encoding"
 version = "0.1.0"
-source = "git+https://github.com/lifthrasiir/rust-encoding#12b6610adff6eddc060691888c36017cd3ad57f7"
+source = "git+https://github.com/lifthrasiir/rust-encoding#35f0d70f65f73ba16f296f9ec675eddee661ba79"
 
 [[package]]
 name = "expat-sys"
@@ -171,17 +171,17 @@ dependencies = [
  "png 0.1.0 (git+https://github.com/servo/rust-png#f3640b37e71a02ee3e140e181cc9accb0a123e16)",
  "stb_image 0.1.0 (git+https://github.com/servo/rust-stb-image#f5022de4ad6bb474a03493d1f274dde9b0f1af0c)",
  "style 0.0.1",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
  "util 0.0.1",
 ]
 
 [[package]]
 name = "glfw"
 version = "0.0.1"
-source = "git+https://github.com/servo/glfw-rs?ref=servo#dd1a111c827994886d2cdebf91a1838603256390"
+source = "git+https://github.com/servo/glfw-rs?ref=servo#a646f0badaccaebd61d0f8aaec5646da0a7c2a14"
 dependencies = [
- "link_glfw 0.1.0 (git+https://github.com/servo/glfw-rs?ref=servo#dd1a111c827994886d2cdebf91a1838603256390)",
- "semver 0.0.1 (git+https://github.com/rust-lang/semver#df163f7b22686493b037eee1f1f9d1a2742f9bbe)",
+ "link_glfw 0.1.0 (git+https://github.com/servo/glfw-rs?ref=servo#a646f0badaccaebd61d0f8aaec5646da0a7c2a14)",
+ "semver 0.0.1 (git+https://github.com/rust-lang/semver#d04583a173395b76c1eaa15cc630a5f6f8f0ae10)",
 ]
 
 [[package]]
@@ -202,8 +202,8 @@ name = "http"
 version = "0.1.0-pre"
 source = "git+https://github.com/servo/rust-http?ref=servo#13be91d968d3e5ba032d19a3bb3438c2c4c6b372"
 dependencies = [
- "openssl 0.0.0 (git+https://github.com/sfackler/rust-openssl.git#cd40d25cb5721064c5c2002c41a616d2dba7399a)",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "openssl 0.0.0 (git+https://github.com/sfackler/rust-openssl.git#cc7511a3329ae07df6bb658391fe19e8115e7f52)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
 ]
 
 [[package]]
@@ -250,14 +250,14 @@ dependencies = [
  "geom 0.1.0 (git+https://github.com/servo/rust-geom#2982b770db6e5e3270305e0fd6b8068f6f80a489)",
  "io_surface 0.1.0 (git+https://github.com/servo/rust-io-surface#05f102273e16e9432245f813e5fe6280087e2b44)",
  "opengles 0.1.0 (git+https://github.com/servo/rust-opengles#13cccda11011716fd75526a74dfd03122110f95a)",
- "xlib 0.1.0 (git+https://github.com/servo/rust-xlib#79904fb42ff8a0e888f70fae336fbf6c11f1e6c8)",
+ "xlib 0.1.0 (git+https://github.com/servo/rust-xlib#581d4faddec5188d3c3ae5307dbea28aab90644c)",
 ]
 
 [[package]]
 name = "layout"
 version = "0.0.1"
 dependencies = [
- "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#12b6610adff6eddc060691888c36017cd3ad57f7)",
+ "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#35f0d70f65f73ba16f296f9ec675eddee661ba79)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom#2982b770db6e5e3270305e0fd6b8068f6f80a489)",
  "gfx 0.0.1",
  "layout_traits 0.0.1",
@@ -268,7 +268,7 @@ dependencies = [
  "string_cache 0.0.0 (git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130bf75e2f082bab54767d56d4ba63a)",
  "string_cache_macros 0.0.0 (git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130bf75e2f082bab54767d56d4ba63a)",
  "style 0.0.1",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
  "util 0.0.1",
 ]
 
@@ -286,7 +286,7 @@ dependencies = [
 [[package]]
 name = "link_glfw"
 version = "0.1.0"
-source = "git+https://github.com/servo/glfw-rs?ref=servo#dd1a111c827994886d2cdebf91a1838603256390"
+source = "git+https://github.com/servo/glfw-rs?ref=servo#a646f0badaccaebd61d0f8aaec5646da0a7c2a14"
 
 [[package]]
 name = "macros"
@@ -306,7 +306,7 @@ dependencies = [
  "geom 0.1.0 (git+https://github.com/servo/rust-geom#2982b770db6e5e3270305e0fd6b8068f6f80a489)",
  "io_surface 0.1.0 (git+https://github.com/servo/rust-io-surface#05f102273e16e9432245f813e5fe6280087e2b44)",
  "layers 0.1.0 (git+https://github.com/servo/rust-layers#e29c5cd670a0b42e8ac50e7099c265c481640dd5)",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
  "util 0.0.1",
 ]
 
@@ -318,7 +318,7 @@ dependencies = [
  "http 0.1.0-pre (git+https://github.com/servo/rust-http?ref=servo#13be91d968d3e5ba032d19a3bb3438c2c4c6b372)",
  "png 0.1.0 (git+https://github.com/servo/rust-png#f3640b37e71a02ee3e140e181cc9accb0a123e16)",
  "stb_image 0.1.0 (git+https://github.com/servo/rust-stb-image#f5022de4ad6bb474a03493d1f274dde9b0f1af0c)",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
  "util 0.0.1",
 ]
 
@@ -330,7 +330,7 @@ source = "git+https://github.com/servo/rust-opengles#13cccda11011716fd75526a74df
 [[package]]
 name = "openssl"
 version = "0.0.0"
-source = "git+https://github.com/sfackler/rust-openssl.git#cd40d25cb5721064c5c2002c41a616d2dba7399a"
+source = "git+https://github.com/sfackler/rust-openssl.git#cc7511a3329ae07df6bb658391fe19e8115e7f52"
 
 [[package]]
 name = "parserutils-sys"
@@ -340,12 +340,12 @@ source = "git+http://github.com/servo/libparserutils#651b636ba1214bceeb0907adb1e
 [[package]]
 name = "phf"
 version = "0.0.0"
-source = "git+https://github.com/sfackler/rust-phf#fa5d803428dd760287330571c919c7c5e11b2e1b"
+source = "git+https://github.com/sfackler/rust-phf#7715bd50936d8eb4fde71ba87ae0e51db5ecea93"
 
 [[package]]
 name = "phf_mac"
 version = "0.0.0"
-source = "git+https://github.com/sfackler/rust-phf#fa5d803428dd760287330571c919c7c5e11b2e1b"
+source = "git+https://github.com/sfackler/rust-phf#7715bd50936d8eb4fde71ba87ae0e51db5ecea93"
 
 [[package]]
 name = "png"
@@ -365,8 +365,8 @@ name = "script"
 version = "0.0.1"
 dependencies = [
  "canvas 0.0.1",
- "cssparser 0.1.0 (git+https://github.com/servo/rust-cssparser#42346400a6629b17a48d06f0a9b28ae498947c6f)",
- "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#12b6610adff6eddc060691888c36017cd3ad57f7)",
+ "cssparser 0.1.0 (git+https://github.com/servo/rust-cssparser#fa619d4ffd6920dee6e7ea79f42d9cceb9015407)",
+ "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#35f0d70f65f73ba16f296f9ec675eddee661ba79)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom#2982b770db6e5e3270305e0fd6b8068f6f80a489)",
  "gfx 0.0.1",
  "http 0.1.0-pre (git+https://github.com/servo/rust-http?ref=servo#13be91d968d3e5ba032d19a3bb3438c2c4c6b372)",
@@ -379,7 +379,7 @@ dependencies = [
  "string_cache 0.0.0 (git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130bf75e2f082bab54767d56d4ba63a)",
  "string_cache_macros 0.0.0 (git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130bf75e2f082bab54767d56d4ba63a)",
  "style 0.0.1",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
  "util 0.0.1",
 ]
 
@@ -390,13 +390,13 @@ dependencies = [
  "geom 0.1.0 (git+https://github.com/servo/rust-geom#2982b770db6e5e3270305e0fd6b8068f6f80a489)",
  "msg 0.0.1",
  "net 0.0.1",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
 ]
 
 [[package]]
 name = "semver"
 version = "0.0.1"
-source = "git+https://github.com/rust-lang/semver#df163f7b22686493b037eee1f1f9d1a2742f9bbe"
+source = "git+https://github.com/rust-lang/semver#d04583a173395b76c1eaa15cc630a5f6f8f0ae10"
 
 [[package]]
 name = "skia-sys"
@@ -417,8 +417,8 @@ name = "string_cache"
 version = "0.0.0"
 source = "git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130bf75e2f082bab54767d56d4ba63a"
 dependencies = [
- "phf 0.0.0 (git+https://github.com/sfackler/rust-phf#fa5d803428dd760287330571c919c7c5e11b2e1b)",
- "phf_mac 0.0.0 (git+https://github.com/sfackler/rust-phf#fa5d803428dd760287330571c919c7c5e11b2e1b)",
+ "phf 0.0.0 (git+https://github.com/sfackler/rust-phf#7715bd50936d8eb4fde71ba87ae0e51db5ecea93)",
+ "phf_mac 0.0.0 (git+https://github.com/sfackler/rust-phf#7715bd50936d8eb4fde71ba87ae0e51db5ecea93)",
  "string_cache_macros 0.0.0 (git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130bf75e2f082bab54767d56d4ba63a)",
 ]
 
@@ -431,13 +431,13 @@ source = "git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130b
 name = "style"
 version = "0.0.1"
 dependencies = [
- "cssparser 0.1.0 (git+https://github.com/servo/rust-cssparser#42346400a6629b17a48d06f0a9b28ae498947c6f)",
- "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#12b6610adff6eddc060691888c36017cd3ad57f7)",
+ "cssparser 0.1.0 (git+https://github.com/servo/rust-cssparser#fa619d4ffd6920dee6e7ea79f42d9cceb9015407)",
+ "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#35f0d70f65f73ba16f296f9ec675eddee661ba79)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom#2982b770db6e5e3270305e0fd6b8068f6f80a489)",
  "macros 0.0.1",
  "string_cache 0.0.0 (git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130bf75e2f082bab54767d56d4ba63a)",
  "string_cache_macros 0.0.0 (git+https://github.com/servo/string-cache?ref=pre-rustup#37a5869d4130bf75e2f082bab54767d56d4ba63a)",
- "url 0.1.0 (git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379)",
  "util 0.0.1",
 ]
 
@@ -448,9 +448,9 @@ version = "0.0.1"
 [[package]]
 name = "url"
 version = "0.1.0"
-source = "git+https://github.com/servo/rust-url#678bb4d52638b1cfdab78ef8e521566c9240fb1a"
+source = "git+https://github.com/servo/rust-url#bfdf809365600a7941a77524f9bb065886de3379"
 dependencies = [
- "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#12b6610adff6eddc060691888c36017cd3ad57f7)",
+ "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#35f0d70f65f73ba16f296f9ec675eddee661ba79)",
 ]
 
 [[package]]
@@ -466,5 +466,5 @@ dependencies = [
 [[package]]
 name = "xlib"
 version = "0.1.0"
-source = "git+https://github.com/servo/rust-xlib#79904fb42ff8a0e888f70fae336fbf6c11f1e6c8"
+source = "git+https://github.com/servo/rust-xlib#581d4faddec5188d3c3ae5307dbea28aab90644c"
 

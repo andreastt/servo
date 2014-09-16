@@ -32,15 +32,15 @@ extern crate time;
 extern crate canvas;
 extern crate script_traits;
 #[phase(plugin)]
-extern crate servo_macros = "macros";
-extern crate servo_net = "net";
-extern crate servo_util = "util";
+extern crate "macros" as servo_macros;
+extern crate "net" as servo_net;
+extern crate "util" as servo_util;
 extern crate style;
 extern crate string_cache;
 #[phase(plugin)]
 extern crate string_cache_macros;
 extern crate sync;
-extern crate servo_msg = "msg";
+extern crate "msg" as servo_msg;
 extern crate url;
 
 pub mod cors;
